@@ -1,0 +1,12 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "ai-nexus"
+compatibility_date = "2025-01-29"
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ai_nexus_db"
+database_id = "4bf3ae05-45f5-4089-9790-61cf3e534145"
