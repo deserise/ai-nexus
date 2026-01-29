@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 
 import Navbar from "@/components/Navbar";
 import BackgroundEffect from "@/components/BackgroundEffect";
+import WeatherWidget from "@/components/WeatherWidget";
 
 export default function RootLayout({
   children,
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <BackgroundEffect />
         <Navbar />
+        <WeatherWidget />
         <div className="relative z-10 pt-16">
           {children}
         </div>
